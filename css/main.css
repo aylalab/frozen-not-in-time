@@ -1,0 +1,68 @@
+html {
+  font-family: "Fredoka One", sans-serif;
+}
+
+.banner {
+  background-image: repeating-linear-gradient(-45deg, #c9fcff 0%, #c9fcff 1%, #d4fdff 1.1%, #d4fdff 2%, #c9fcff 2.1%);
+  border-top: 8px solid #b3fbff;
+  border-bottom: 8px solid #b3fbff;
+  position: relative;
+}
+
+.ice-cream {
+  min-height: 475px;
+}
+
+.btn-ghost {
+  border: 3px solid #990073;
+  color: #990073;
+}
+
+.btn-ghost:hover {
+  background-color: #c09;
+}
+
+.cone {
+  position: absolute;
+  right: 10%;
+  bottom: 0%;
+  z-index: 2;
+}
+
+.mint {
+  position: absolute;
+  right: 10%;
+  bottom: 22%;
+}
+
+.chocolate {
+  position: absolute;
+  right: 9%;
+  bottom: 40%;
+}
+
+.vanilla {
+  position: absolute;
+  right: 10.5%;
+  bottom: 55%;
+}
+
+.cherry {
+  position: absolute;
+  right: 10%;
+  bottom: 72%;
+}
+
+.piece {
+  width: 180px;
+}
+
+h1 {
+  color: #990073;
+  transform: rotate(-10deg);
+}
+
+p {
+  color: #c09;
+  transform: rotate(-5deg);
+}
